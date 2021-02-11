@@ -33,7 +33,6 @@ function handleClick(event) {
     round();
   } else {
     $(event.target).addClass("miss");
-    round();
   }
 }
 
